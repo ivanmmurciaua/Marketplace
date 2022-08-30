@@ -5,5 +5,9 @@ import "forge-std/Test.sol";
 import "../src/PADMarketv2.sol";
 
 contract MarketTest is Test {
+    PADMarketv2 internal market;
+
+    function setUp() public {
+    }
 
 }
